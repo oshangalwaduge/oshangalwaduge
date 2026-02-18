@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Oshan Galwaduge
 
-Senior DevOps Engineer with 5+ years of experience designing, building, and operating
+Associate Lead DevOps Engineer and a Kubestronaut with 5+ years of experience designing, building, and operating
 cloud-native and hybrid infrastructure for large-scale, mission-critical enterprise systems.
 
 I specialize in Kubernetes platforms, CI/CD as a service, infrastructure automation, and
@@ -58,9 +58,12 @@ deployment reliability.
 ---
 
 ## 🎓 Certifications
+- Kubernetes and Cloud Native Associate (KCNA)
+- Kubernetes and Cloud Native Security Associate (KCSA)
+- Certified Kubernetes Application Developer (CKAD)
 - Certified Kubernetes Administrator (CKA)
 - Certified Kubernetes Security Specialist (CKS)
-- AWS Solutions Architect – Associate
+- AWS Solutions Architect – Associate (AWS-SAA C03)
 
 ---
 
