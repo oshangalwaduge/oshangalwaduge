@@ -1,0 +1,141 @@
+﻿:root {
+  --bg: #f4f7fb;
+  --surface: #ffffff;
+  --surface-alt: #eef2f8;
+  --ink: #101828;
+  --ink-muted: #475467;
+  --accent: #0e7490;
+  --border: #d0d5dd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: var(--ink);
+  background: radial-gradient(circle at top right, #c8f0ff 0%, var(--bg) 35%);
+}
+
+.container {
+  width: min(1040px, 92vw);
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 6rem 0 4rem;
+  background: linear-gradient(140deg, #082f49 0%, #0e7490 55%, #22d3ee 100%);
+  color: #fff;
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  opacity: 0.9;
+}
+
+h1 {
+  margin: 0.35rem 0 1rem;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1.1;
+}
+
+.subtitle {
+  margin: 0;
+  max-width: 70ch;
+  font-size: 1.05rem;
+}
+
+.hero-actions {
+  margin-top: 1.6rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.1rem;
+  background: #fff;
+  color: #0f172a;
+  text-decoration: none;
+  border-radius: 0.6rem;
+  font-weight: 600;
+}
+
+.section {
+  padding: 3.5rem 0;
+}
+
+.section.alt {
+  background: var(--surface-alt);
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 1.6rem;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+li + li {
+  margin-top: 0.45rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.85rem;
+  padding: 1rem;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.footer {
+  background: #0b1324;
+  color: #d0d5dd;
+  padding: 1.3rem 0;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer a {
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    padding: 4.3rem 0 3.2rem;
+  }
+
+  .two-col {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
